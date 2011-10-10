@@ -11,10 +11,6 @@ app = Flask(__name__)
 def form():
     return render_template('form.html')
 
-@app.route('/welcome')
-def welcome():
-    return render_template('welcome.html')
-
 @app.route('/expand')
 def expand():    
 #    name='wörld'.decode('utf-8')

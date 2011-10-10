@@ -29,11 +29,6 @@ def expand():
     
     return render_template('url.html', short=short, url=url)
 
-@app.route('/naber')
-def naber():
-    naber = "naber lov"
-    
-    return render_template('naber.html', naber=naber)
 
 
 if __name__ == '__main__':

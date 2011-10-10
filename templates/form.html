@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h1>URL Expander</h1>
+
+<p>Write the URL and press '<em>Enter</em>'</p>
+<form action="/expand" method="get">
+  http://<input name="url" id="url" type="text" />
+</form>
+
+<h2>Samples</h2>
+<ul>
+  <li><a href="/expand?url=yet.io/sj">yet.io/sj</a></li>
+  <li><a href="/expand?url=t.co/ANO9u6i7">t.co/ANO9u6i7</a></li>
+  <li><a href="/expand?url=bit.ly/ocvlSX">bit.ly/ocvlSX</a></li>
+</ul>
+
+<p>A simple Python test by <a href="/expand?url=yet.io/cem">Cem K.</a> No biggie.</p>
+
+{% endblock %}

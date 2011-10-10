@@ -1,0 +1,14 @@
+body        { font-family: 'Georgia', serif; font-size: 17px; margin: 20px 30px; }
+h1, a       { color: #851818; }
+a:hover     { color: #BD1C1C; }
+h1, h2, h3  { font-family: 'Garamond', 'Georgia', serif; font-weight: normal; }
+h1          { font-size: 30px; margin: 15px 0 5px 0; }
+h2          { font-size: 24px; margin: 25px 0 5px 0; }
+h3          { font-size: 19px; margin: 15px 0 5px 0; }
+code, pre   { font-family: 'Consolas', 'Menlo', monospace!important;
+              font-size: 15px; background: #eee; }
+     
+h2          { color: #851818; }
+a.back      { color: #aaa; }         
+ul          { margin: 0; color: #851818; list-style-type: square; }
+ul li a     { margin-left: -5px; }
